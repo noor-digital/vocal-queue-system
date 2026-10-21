@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Système d'appel des clients</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+      integrity="sha384-tViUnnbYAV00FLIhhi3v/dWt3Jxw4gZQcNoSCxCIFNJVCx7/D55/wXsrNIRANwdD"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="marquee-container">
+      <span class="marquee-span">Annonce :</span>
+      <marquee behavior="scroll" direction="left" scrollamount="8"
+        >Bienvenue — Prochain client :
+        <span id="marquee-number">0</span></marquee
+      >
+    </div>
+
+    <div class="card" style="width: 15rem">
+      <div class="card-body">
+        <h5 class="card-title" id="card-title"></h5>
+        <div id="counter">0</div>
+        <p class="card-text">client suivant</p>
+        <div class="prev-next">
+          <button id="decrement" class="btn btn1" aria-label="Client précédent">
+            <i class="bi bi-dash" aria-hidden="true"></i>
+          </button>
+          <button id="reset" class="btn btn0" aria-label="Réinitialiser le compteur">
+            <i class="bi bi-arrow-counterclockwise" aria-hidden="true"></i>
+          </button>
+          <button id="increment" class="btn btn2" aria-label="Client suivant">
+            <i class="bi bi-plus" aria-hidden="true"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

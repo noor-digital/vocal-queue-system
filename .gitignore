@@ -1,0 +1,30 @@
+# --- Secrets et configuration locale ---
+# Le projet n'utilise aucune variable d'environnement, mais on évite
+# tout commit accidentel de fichiers sensibles si le projet évolue.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# --- Dépendances et sorties de build (si un outillage est ajouté plus tard) ---
+node_modules/
+dist/
+build/
+.cache/
+
+# --- Journaux ---
+*.log
+npm-debug.log*
+
+# --- Fichiers système ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Éditeurs / IDE ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
