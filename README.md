@@ -4,7 +4,7 @@ Petite application web statique pour appeler des clients à un guichet : un comp
 
 Le projet est une simple page HTML/CSS/JavaScript : **aucun serveur, aucune base de données, aucune clé d'API** n'est nécessaire pour la faire fonctionner.
 
-## Fonctionnalités
+## Aperçu\n\n![Capture réelle de Vocal Queue System en fonctionnement](https://raw.githubusercontent.com/noor-digital/noor-digital-portfolio/main/public/assets/vocal-queue-system.png)\n\n[Ouvrir la démo](https://vocal-queue-system.vercel.app/)\n\n## Fonctionnalités
 
 - **Compteur de 0 à 10** avec trois boutons :
   - **+** : passe au client suivant ;
