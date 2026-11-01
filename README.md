@@ -83,3 +83,11 @@ Un affichage partagé entre plusieurs appareils ou un historique d'appels néces
 ## Licence
 
 Aucune licence n'a encore été définie pour ce dépôt. Tant qu'un fichier `LICENSE` n'est pas ajouté, tous les droits sont réservés par défaut.
+
+
+## À propos de NOOR DIGITAL
+
+Vocal Queue System fait partie du portfolio **NOOR DIGITAL** — *La lumière qui structure*.
+
+- **GitHub :** https://github.com/noor-digital
+- **Portfolio :** https://noor-digital.github.io/noor-digital-portfolio/
